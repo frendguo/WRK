@@ -1,0 +1,586 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(324,5): warning MSB4211: The property "TargetPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets (25,5)".
+  	checktoolarch x86
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\rtl\BUILD
+  	ml.exe -nologo -Cx -Zi -safeseh -coff -Zm -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\rtl -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -c ..\i386\debug2.asm ..\i386\stringsp.asm ..\i386\ioaccess.asm ..\i386\largeint.asm ..\i386\movemem.asm ..\i386\raise.asm ..\i386\stkwalk.asm ..\i386\xcptmisc.asm ..\i386\slist.asm 
+   Assembling: ..\i386\debug2.asm
+   Assembling: ..\i386\stringsp.asm
+   Assembling: ..\i386\ioaccess.asm
+   Assembling: ..\i386\largeint.asm
+   Assembling: ..\i386\movemem.asm
+   Assembling: ..\i386\raise.asm
+   Assembling: ..\i386\stkwalk.asm
+   Assembling: ..\i386\xcptmisc.asm
+   Assembling: ..\i386\slist.asm
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\rtl -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\i386\context.c ..\i386\debug3.c ..\i386\divlarge.c ..\i386\exdsptch.c ..\i386\getcalr.c 
+  context.c
+  debug3.c
+  divlarge.c
+  exdsptch.c
+  getcalr.c
+  Generating Code...
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\rtl -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\byteswap.c ..\acledit.c ..\add2stra.c ..\add2strw.c ..\assert.c ..\atom.c ..\avltable.c ..\bitmap.c ..\cnvint.c ..\debug.c ..\eballoc.c ..\environ.c ..\error.c ..\excptdbg.c ..\gentable.c ..\guid.c ..\imagedir.c ..\rtlnthdr.c ..\intbits.c ..\ldrrsrc.c ..\ldrreloc.c ..\lookup.c ..\message.c ..\nls.c ..\nlsxlat.c ..\pctohdr.c ..\peb.c ..\prefix.c ..\regutil.c ..\rtlassig.c ..\rtldata.c ..\rtlexec.c ..\sertl.c ..\splay.c ..\str2adda.c ..\str2addw.c ..\string.c ..\stktrace.c ..\sysvol.c ..\time.c ..\tracedb.c 
+  byteswap.c
+  acledit.c
+  add2stra.c
+  add2strw.c
+  assert.c
+  atom.c
+  avltable.c
+  bitmap.c
+  cnvint.c
+  debug.c
+  eballoc.c
+  environ.c
+  error.c
+  excptdbg.c
+  gentable.c
+  guid.c
+  imagedir.c
+  rtlnthdr.c
+  intbits.c
+  ldrrsrc.c
+  Generating Code...
+  Compiling...
+  ldrreloc.c
+  lookup.c
+  message.c
+  nls.c
+  nlsxlat.c
+  pctohdr.c
+  peb.c
+  prefix.c
+  regutil.c
+  rtlassig.c
+  rtldata.c
+  rtlexec.c
+  sertl.c
+  splay.c
+  str2adda.c
+  str2addw.c
+  string.c
+  stktrace.c
+  sysvol.c
+  time.c
+  Generating Code...
+  Compiling...
+  tracedb.c
+  Generating Code...
+  linking ntosrtl.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ntosrtl.lib obji386\debug2.obj obji386\stringsp.obj obji386\ioaccess.obj obji386\largeint.obj obji386\movemem.obj obji386\raise.obj obji386\stkwalk.obj obji386\xcptmisc.obj obji386\slist.obj obji386\context.obj obji386\debug3.obj obji386\divlarge.obj obji386\exdsptch.obj obji386\getcalr.obj obji386\byteswap.obj obji386\acledit.obj obji386\add2stra.obj obji386\add2strw.obj obji386\assert.obj obji386\atom.obj obji386\avltable.obj obji386\bitmap.obj obji386\cnvint.obj obji386\debug.obj obji386\eballoc.obj obji386\environ.obj obji386\error.obj obji386\excptdbg.obj obji386\gentable.obj obji386\guid.obj obji386\imagedir.obj obji386\rtlnthdr.obj obji386\intbits.obj obji386\ldrrsrc.obj obji386\ldrreloc.obj obji386\lookup.obj obji386\message.obj obji386\nls.obj obji386\nlsxlat.obj obji386\pctohdr.obj obji386\peb.obj obji386\prefix.obj obji386\regutil.obj obji386\rtlassig.obj obji386\rtldata.obj obji386\rtlexec.obj obji386\sertl.obj obji386\splay.obj obji386\str2adda.obj obji386\str2addw.obj obji386\string.obj obji386\stktrace.obj obji386\sysvol.obj obji386\time.obj obji386\tracedb.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\config\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\config -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -D_WANT_MACHINE_IDENTIFICATION -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\cmapi.c ..\cmapi2.c ..\cmboot.c ..\cmchek.c ..\cmchek2.c ..\cmclose.c ..\cmconfig.c ..\cmcontrl.c ..\cmdat.c ..\cmdat2.c ..\cmdatini.c ..\cmdelete.c ..\cmgquota.c ..\cmhvlist.c ..\cmindex.c ..\cminit.c ..\cmname.c ..\cmnotify.c ..\cmparse.c ..\cmparse2.c ..\cmquery.c ..\cmsavres.c ..\cmsubs.c ..\cmsubs2.c ..\cmsubs3.c ..\cmse.c ..\cmsysini.c ..\cmtrecpy.c ..\cmtredel.c ..\cmtree.c ..\cmworker.c ..\cmwrapr.c ..\cmwrapr2.c ..\cmwmi.c ..\cmmapvw.c ..\cmdelay.c ..\cmvalue.c ..\cmsecache.c ..\cmdown.c ..\cmalloc.c ..\cmhook.c ..\hivebin.c ..\hivecell.c ..\hivechek.c ..\hivefree.c ..\hiveinit.c ..\hiveload.c ..\hivemap.c ..\hivesum.c ..\hivesync.c ..\hivehint.c ..\ntapi.c 
+  cmapi.c
+  cmapi2.c
+  cmboot.c
+  cmchek.c
+  cmchek2.c
+  cmclose.c
+  cmconfig.c
+  cmcontrl.c
+  cmdat.c
+  cmdat2.c
+  cmdatini.c
+  cmdelete.c
+  cmgquota.c
+  cmhvlist.c
+  cmindex.c
+  cminit.c
+  cmname.c
+  cmnotify.c
+  cmparse.c
+  cmparse2.c
+  Generating Code...
+  Compiling...
+  cmquery.c
+  cmsavres.c
+  cmsubs.c
+  cmsubs2.c
+  cmsubs3.c
+  cmse.c
+  cmsysini.c
+  cmtrecpy.c
+  cmtredel.c
+  cmtree.c
+  cmworker.c
+  cmwrapr.c
+  cmwrapr2.c
+  cmwmi.c
+  cmmapvw.c
+  cmdelay.c
+  cmvalue.c
+  cmsecache.c
+  cmdown.c
+  cmalloc.c
+  Generating Code...
+  Compiling...
+  cmhook.c
+  hivebin.c
+  hivecell.c
+  hivechek.c
+  hivefree.c
+  hiveinit.c
+  hiveload.c
+  hivemap.c
+  hivesum.c
+  hivesync.c
+  hivehint.c
+  ntapi.c
+  Generating Code...
+  linking config.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\config.lib obji386\cmapi.obj obji386\cmapi2.obj obji386\cmboot.obj obji386\cmchek.obj obji386\cmchek2.obj obji386\cmclose.obj obji386\cmconfig.obj obji386\cmcontrl.obj obji386\cmdat.obj obji386\cmdat2.obj obji386\cmdatini.obj obji386\cmdelete.obj obji386\cmgquota.obj obji386\cmhvlist.obj obji386\cmindex.obj obji386\cminit.obj obji386\cmname.obj obji386\cmnotify.obj obji386\cmparse.obj obji386\cmparse2.obj obji386\cmquery.obj obji386\cmsavres.obj obji386\cmsubs.obj obji386\cmsubs2.obj obji386\cmsubs3.obj obji386\cmse.obj obji386\cmsysini.obj obji386\cmtrecpy.obj obji386\cmtredel.obj obji386\cmtree.obj obji386\cmworker.obj obji386\cmwrapr.obj obji386\cmwrapr2.obj obji386\cmwmi.obj obji386\cmmapvw.obj obji386\cmdelay.obj obji386\cmvalue.obj obji386\cmsecache.obj obji386\cmdown.obj obji386\cmalloc.obj obji386\cmhook.obj obji386\hivebin.obj obji386\hivecell.obj obji386\hivechek.obj obji386\hivefree.obj obji386\hiveinit.obj obji386\hiveload.obj obji386\hivemap.obj obji386\hivesum.obj obji386\hivesync.obj obji386\hivehint.obj obji386\ntapi.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\ex\BUILD
+  	ml.exe -nologo -Cx -Zi -safeseh -coff -Zm -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ex -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -c ..\i386\intrlock.asm ..\i386\intrlfst.asm ..\i386\splocks.asm 
+   Assembling: ..\i386\intrlock.asm
+   Assembling: ..\i386\intrlfst.asm
+   Assembling: ..\i386\splocks.asm
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ex -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\..\ke -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\callback.c ..\callperf.c ..\delay.c ..\event.c ..\eventpr.c ..\exatom.c ..\exdata.c ..\exinit.c ..\fmutexc.c ..\handle.c ..\harderr.c ..\lookasid.c ..\luid.c ..\mutant.c ..\nbqueue.c ..\pool.c ..\probe.c ..\profile.c ..\raise.c ..\resource.c ..\semphore.c ..\sysinfo.c ..\timer.c ..\worker.c ..\zone.c ..\uuid.c ..\win32.c ..\rundown.c ..\pushlock.c ..\keyedevent.c 
+  callback.c
+  callperf.c
+  delay.c
+  event.c
+  eventpr.c
+  exatom.c
+  exdata.c
+  exinit.c
+  fmutexc.c
+  handle.c
+  harderr.c
+  lookasid.c
+  luid.c
+  mutant.c
+  nbqueue.c
+  pool.c
+  probe.c
+  profile.c
+  raise.c
+  resource.c
+  Generating Code...
+  Compiling...
+  semphore.c
+  sysinfo.c
+  timer.c
+  worker.c
+  zone.c
+  uuid.c
+  win32.c
+  rundown.c
+  pushlock.c
+  keyedevent.c
+  Generating Code...
+  linking ex.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ex.lib obji386\intrlock.obj obji386\intrlfst.obj obji386\splocks.obj obji386\callback.obj obji386\callperf.obj obji386\delay.obj obji386\event.obj obji386\eventpr.obj obji386\exatom.obj obji386\exdata.obj obji386\exinit.obj obji386\fmutexc.obj obji386\handle.obj obji386\harderr.obj obji386\lookasid.obj obji386\luid.obj obji386\mutant.obj obji386\nbqueue.obj obji386\pool.obj obji386\probe.obj obji386\profile.obj obji386\raise.obj obji386\resource.obj obji386\semphore.obj obji386\sysinfo.obj obji386\timer.obj obji386\worker.obj obji386\zone.obj obji386\uuid.obj obji386\win32.obj obji386\rundown.obj obji386\pushlock.obj obji386\keyedevent.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\ob\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ob -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\obinit.c ..\obcreate.c ..\obhandle.c ..\obinsert.c ..\obref.c ..\obse.c ..\obtype.c ..\obdir.c ..\obdevmap.c ..\oblink.c ..\obclose.c ..\obquery.c ..\obsdata.c ..\obwait.c ..\fastref.c 
+  obinit.c
+  obcreate.c
+  obhandle.c
+  obinsert.c
+  obref.c
+  obse.c
+  obtype.c
+  obdir.c
+  obdevmap.c
+  oblink.c
+  obclose.c
+  obquery.c
+  obsdata.c
+  obwait.c
+  fastref.c
+  Generating Code...
+  linking ob.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ob.lib obji386\obinit.obj obji386\obcreate.obj obji386\obhandle.obj obji386\obinsert.obj obji386\obref.obj obji386\obse.obj obji386\obtype.obj obji386\obdir.obj obji386\obdevmap.obj obji386\oblink.obj obji386\obclose.obj obji386\obquery.obj obji386\obsdata.obj obji386\obwait.obj obji386\fastref.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\se\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\se -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\accessck.c ..\capture.c ..\privileg.c ..\rmlogon.c ..\rmmain.c ..\rmvars.c ..\seassign.c ..\seaudit.c ..\sepaudit.c ..\seclient.c ..\seglobal.c ..\seinit.c ..\semethod.c ..\sep.c ..\subject.c ..\seastate.c ..\token.c ..\tokenadj.c ..\tokendup.c ..\tokenopn.c ..\tokenqry.c ..\tokenset.c ..\adtlog.c ..\adtinit.c ..\adtvars.c ..\adtutil.c ..\rmaudit.c 
+  accessck.c
+  capture.c
+  privileg.c
+  rmlogon.c
+  rmmain.c
+  rmvars.c
+  seassign.c
+  seaudit.c
+  sepaudit.c
+  seclient.c
+  seglobal.c
+  seinit.c
+  semethod.c
+  sep.c
+  subject.c
+  seastate.c
+  token.c
+  tokenadj.c
+  tokendup.c
+  tokenopn.c
+  Generating Code...
+  Compiling...
+  tokenqry.c
+  tokenset.c
+  adtlog.c
+  adtinit.c
+  adtvars.c
+  adtutil.c
+  rmaudit.c
+  Generating Code...
+  linking ntosse.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ntosse.lib obji386\accessck.obj obji386\capture.obj obji386\privileg.obj obji386\rmlogon.obj obji386\rmmain.obj obji386\rmvars.obj obji386\seassign.obj obji386\seaudit.obj obji386\sepaudit.obj obji386\seclient.obj obji386\seglobal.obj obji386\seinit.obj obji386\semethod.obj obji386\sep.obj obji386\subject.obj obji386\seastate.obj obji386\token.obj obji386\tokenadj.obj obji386\tokendup.obj obji386\tokenopn.obj obji386\tokenqry.obj obji386\tokenset.obj obji386\adtlog.obj obji386\adtinit.obj obji386\adtvars.obj obji386\adtutil.obj obji386\rmaudit.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\mm\BUILD
+  	ml.exe -nologo -Cx -Zi -safeseh -coff -Zm -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\mm -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -c ..\i386\pae.asm 
+   Assembling: ..\i386\pae.asm
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\mm -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\..\ke -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\i386\init386.c ..\i386\data386.c ..\i386\procpae.c ..\i386\procx86.c ..\i386\paesup.c ..\i386\setmodfy.c 
+  init386.c
+  data386.c
+  procpae.c
+  procx86.c
+  paesup.c
+  setmodfy.c
+  Generating Code...
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\mm -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\..\ke -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\acceschk.c ..\addrsup.c ..\allocpag.c ..\allocvm.c ..\buildmdl.c ..\creasect.c ..\deleteva.c ..\dmpaddr.c ..\extsect.c ..\flushbuf.c ..\flushsec.c ..\forksup.c ..\freevm.c ..\hypermap.c ..\iosup.c ..\lockvm.c ..\mapcache.c ..\mapview.c ..\miglobal.c ..\mmfault.c ..\mminit.c ..\mmsup.c ..\mmquota.c ..\modwrite.c ..\pagfault.c ..\pfndec.c ..\pfnlist.c ..\physical.c ..\procsup.c ..\protect.c ..\querysec.c ..\queryvm.c ..\readwrt.c ..\sectsup.c ..\session.c ..\sessload.c ..\shutdown.c ..\sysload.c ..\sysptes.c ..\umapview.c ..\vadtree.c ..\wslist.c ..\wsmanage.c ..\wstree.c ..\wrtfault.c ..\wrtwatch.c ..\zeropage.c 
+  acceschk.c
+  addrsup.c
+  allocpag.c
+  allocvm.c
+  buildmdl.c
+  creasect.c
+  deleteva.c
+  dmpaddr.c
+  extsect.c
+  flushbuf.c
+  flushsec.c
+  forksup.c
+  freevm.c
+  hypermap.c
+  iosup.c
+  lockvm.c
+  mapcache.c
+  mapview.c
+  miglobal.c
+  mmfault.c
+  Generating Code...
+  Compiling...
+  mminit.c
+  mmsup.c
+  mmquota.c
+  modwrite.c
+  pagfault.c
+  pfndec.c
+  pfnlist.c
+  physical.c
+  procsup.c
+  protect.c
+  querysec.c
+  queryvm.c
+  readwrt.c
+  sectsup.c
+  session.c
+  sessload.c
+  shutdown.c
+  sysload.c
+  sysptes.c
+  umapview.c
+  Generating Code...
+  Compiling...
+  vadtree.c
+  wslist.c
+  wsmanage.c
+  wstree.c
+  wrtfault.c
+  wrtwatch.c
+  zeropage.c
+  Generating Code...
+  linking mm.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\mm.lib obji386\pae.obj obji386\init386.obj obji386\data386.obj obji386\procpae.obj obji386\procx86.obj obji386\paesup.obj obji386\setmodfy.obj obji386\acceschk.obj obji386\addrsup.obj obji386\allocpag.obj obji386\allocvm.obj obji386\buildmdl.obj obji386\creasect.obj obji386\deleteva.obj obji386\dmpaddr.obj obji386\extsect.obj obji386\flushbuf.obj obji386\flushsec.obj obji386\forksup.obj obji386\freevm.obj obji386\hypermap.obj obji386\iosup.obj obji386\lockvm.obj obji386\mapcache.obj obji386\mapview.obj obji386\miglobal.obj obji386\mmfault.obj obji386\mminit.obj obji386\mmsup.obj obji386\mmquota.obj obji386\modwrite.obj obji386\pagfault.obj obji386\pfndec.obj obji386\pfnlist.obj obji386\physical.obj obji386\procsup.obj obji386\protect.obj obji386\querysec.obj obji386\queryvm.obj obji386\readwrt.obj obji386\sectsup.obj obji386\session.obj obji386\sessload.obj obji386\shutdown.obj obji386\sysload.obj obji386\sysptes.obj obji386\umapview.obj obji386\vadtree.obj obji386\wslist.obj obji386\wsmanage.obj obji386\wstree.obj obji386\wrtfault.obj obji386\wrtwatch.obj obji386\zeropage.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\ke\BUILD
+  	ml.exe -nologo -Cx -Zi -safeseh -coff -Zm -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ke -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -c ..\i386\mpipia.asm ..\i386\abiosa.asm ..\i386\callout.asm ..\i386\clockint.asm ..\i386\ctxswap.asm ..\i386\cpu.asm ..\i386\emv86.asm ..\i386\emxcptn.asm ..\i386\int.asm ..\i386\intsup.asm ..\i386\i386pcr.asm ..\i386\instemul.asm ..\i386\ldtsup2.asm ..\i386\newsysbg.asm ..\i386\procstat.asm ..\i386\spindbg.asm ..\i386\spinlock.asm ..\i386\sysstubs.asm ..\i386\systable.asm ..\i386\threadbg.asm ..\i386\timindex.asm ..\i386\trap.asm ..\i386\zero.asm 
+   Assembling: ..\i386\mpipia.asm
+   Assembling: ..\i386\abiosa.asm
+   Assembling: ..\i386\callout.asm
+   Assembling: ..\i386\clockint.asm
+   Assembling: ..\i386\ctxswap.asm
+   Assembling: ..\i386\cpu.asm
+   Assembling: ..\i386\emv86.asm
+   Assembling: ..\i386\emxcptn.asm
+   Assembling: ..\i386\int.asm
+   Assembling: ..\i386\intsup.asm
+   Assembling: ..\i386\i386pcr.asm
+   Assembling: ..\i386\instemul.asm
+   Assembling: ..\i386\ldtsup2.asm
+   Assembling: ..\i386\newsysbg.asm
+   Assembling: ..\i386\procstat.asm
+   Assembling: ..\i386\spindbg.asm
+   Assembling: ..\i386\spinlock.asm
+   Assembling: ..\i386\sysstubs.asm
+   Assembling: ..\i386\systable.asm
+   Assembling: ..\i386\threadbg.asm
+   Assembling: ..\i386\timindex.asm
+   Assembling: ..\i386\trap.asm
+   Assembling: ..\i386\zero.asm
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ke -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\i386\abiosc.c ..\i386\allproc.c ..\i386\apcuser.c ..\i386\biosc.c ..\i386\callback.c ..\i386\exceptn.c ..\i386\flush.c ..\i386\flushtb.c ..\i386\gdtsup.c ..\i386\intobj.c ..\i386\iopm.c ..\i386\i386init.c ..\i386\kernlini.c ..\i386\largepag.c ..\i386\ldtsup.c ..\i386\misc.c ..\i386\mtrr.c ..\i386\mtrramd.c ..\i386\pat.c ..\i386\thredini.c ..\i386\trapc.c 
+  abiosc.c
+  allproc.c
+  apcuser.c
+  biosc.c
+  callback.c
+  exceptn.c
+  flush.c
+  flushtb.c
+  gdtsup.c
+  intobj.c
+  iopm.c
+  i386init.c
+  kernlini.c
+  largepag.c
+  ldtsup.c
+  misc.c
+  mtrr.c
+  mtrramd.c
+  pat.c
+  thredini.c
+  Generating Code...
+  Compiling...
+  trapc.c
+  Generating Code...
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ke -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\apcobj.c ..\apcsup.c ..\balmgr.c ..\bugcheck.c ..\config.c ..\debug.c ..\devquobj.c ..\dpclock.c ..\dpcobj.c ..\dpcsup.c ..\eventobj.c ..\gateobj.c ..\hifreqlk.c ..\idsched.c ..\interobj.c ..\kernldat.c ..\kevutil.c ..\kiinit.c ..\miscc.c ..\mutntobj.c ..\procobj.c ..\profobj.c ..\queueobj.c ..\raisexcp.c ..\semphobj.c ..\thkemul.c ..\thredobj.c ..\thredsup.c ..\timerobj.c ..\timersup.c ..\wait.c ..\waitsup.c ..\xipi.c ..\yield.c 
+  apcobj.c
+  apcsup.c
+  balmgr.c
+  bugcheck.c
+  config.c
+  debug.c
+  devquobj.c
+  dpclock.c
+  dpcobj.c
+  dpcsup.c
+  eventobj.c
+  gateobj.c
+  hifreqlk.c
+  idsched.c
+  interobj.c
+  kernldat.c
+  kevutil.c
+  kiinit.c
+  miscc.c
+  mutntobj.c
+  Generating Code...
+  Compiling...
+  procobj.c
+  profobj.c
+  queueobj.c
+  raisexcp.c
+  semphobj.c
+  thkemul.c
+  thredobj.c
+  thredsup.c
+  timerobj.c
+  timersup.c
+  wait.c
+  waitsup.c
+  xipi.c
+  yield.c
+  Generating Code...
+  linking ke.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ke.lib obji386\mpipia.obj obji386\abiosa.obj obji386\callout.obj obji386\clockint.obj obji386\ctxswap.obj obji386\cpu.obj obji386\emv86.obj obji386\emxcptn.obj obji386\int.obj obji386\intsup.obj obji386\i386pcr.obj obji386\instemul.obj obji386\ldtsup2.obj obji386\newsysbg.obj obji386\procstat.obj obji386\spindbg.obj obji386\spinlock.obj obji386\sysstubs.obj obji386\systable.obj obji386\threadbg.obj obji386\timindex.obj obji386\trap.obj obji386\zero.obj obji386\abiosc.obj obji386\allproc.obj obji386\apcuser.obj obji386\biosc.obj obji386\callback.obj obji386\exceptn.obj obji386\flush.obj obji386\flushtb.obj obji386\gdtsup.obj obji386\intobj.obj obji386\iopm.obj obji386\i386init.obj obji386\kernlini.obj obji386\largepag.obj obji386\ldtsup.obj obji386\misc.obj obji386\mtrr.obj obji386\mtrramd.obj obji386\pat.obj obji386\thredini.obj obji386\trapc.obj obji386\apcobj.obj obji386\apcsup.obj obji386\balmgr.obj obji386\bugcheck.obj obji386\config.obj obji386\debug.obj obji386\devquobj.obj obji386\dpclock.obj obji386\dpcobj.obj obji386\dpcsup.obj obji386\eventobj.obj obji386\gateobj.obj obji386\hifreqlk.obj obji386\idsched.obj obji386\interobj.obj obji386\kernldat.obj obji386\kevutil.obj obji386\kiinit.obj obji386\miscc.obj obji386\mutntobj.obj obji386\procobj.obj obji386\profobj.obj obji386\queueobj.obj obji386\raisexcp.obj obji386\semphobj.obj obji386\thkemul.obj obji386\thredobj.obj obji386\thredsup.obj obji386\timerobj.obj obji386\timersup.obj obji386\wait.obj obji386\waitsup.obj obji386\xipi.obj obji386\yield.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\ps\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ps -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\..\ke -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\i386\psctx386.c ..\i386\psldt.c ..\i386\psvdm.c 
+  psctx386.c
+  psldt.c
+  psvdm.c
+  Generating Code...
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\ps -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\..\ke -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\psspnd.c ..\pscid.c ..\psimpers.c ..\psinit.c ..\psdelete.c ..\psquery.c ..\create.c ..\kulookup.c ..\psquota.c ..\psctx.c ..\psopen.c ..\psjob.c ..\security.c ..\pshelper.c ..\psenum.c 
+  psspnd.c
+  pscid.c
+  psimpers.c
+  psinit.c
+  psdelete.c
+  psquery.c
+  create.c
+  kulookup.c
+  psquota.c
+  psctx.c
+  psopen.c
+  psjob.c
+  security.c
+  pshelper.c
+  psenum.c
+  Generating Code...
+  linking ps.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ps.lib obji386\psctx386.obj obji386\psldt.obj obji386\psvdm.obj obji386\psspnd.obj obji386\pscid.obj obji386\psimpers.obj obji386\psinit.obj obji386\psdelete.obj obji386\psquery.obj obji386\create.obj obji386\kulookup.obj obji386\psquota.obj obji386\psctx.obj obji386\psopen.obj obji386\psjob.obj obji386\security.obj obji386\pshelper.obj obji386\psenum.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\io\iomgr\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\io\iomgr -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -I..\.. -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\cancelapi.c ..\complete.c ..\create.c ..\devctrl.c ..\dev2dos.c ..\dir.c ..\errorlog.c ..\fsctrl.c ..\internal.c ..\iodata.c ..\ioinit.c ..\iosubs.c ..\loadunld.c ..\lock.c ..\misc.c ..\objsup.c ..\open.c ..\parse.c ..\qsea.c ..\qsfs.c ..\qsinfo.c ..\qsquota.c ..\read.c ..\write.c 
+  cancelapi.c
+  complete.c
+  create.c
+  devctrl.c
+  dev2dos.c
+  dir.c
+  errorlog.c
+  fsctrl.c
+  internal.c
+  iodata.c
+  ioinit.c
+  iosubs.c
+  loadunld.c
+  lock.c
+  misc.c
+  objsup.c
+  open.c
+  parse.c
+  qsea.c
+  qsfs.c
+  Generating Code...
+  Compiling...
+  qsinfo.c
+  qsquota.c
+  read.c
+  write.c
+  Generating Code...
+  linking iomgr.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\iomgr.lib obji386\cancelapi.obj obji386\complete.obj obji386\create.obj obji386\devctrl.obj obji386\dev2dos.obj obji386\dir.obj obji386\errorlog.obj obji386\fsctrl.obj obji386\internal.obj obji386\iodata.obj obji386\ioinit.obj obji386\iosubs.obj obji386\loadunld.obj obji386\lock.obj obji386\misc.obj obji386\objsup.obj obji386\open.obj obji386\parse.obj obji386\qsea.obj obji386\qsfs.obj obji386\qsinfo.obj obji386\qsquota.obj obji386\read.obj obji386\write.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\io\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\io -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\ioguid.c 
+  ioguid.c
+  linking io.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\io.lib obji386\ioguid.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\cache\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\cache -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\cachedat.c ..\cachesub.c ..\copysup.c ..\fssup.c ..\lazyrite.c ..\logsup.c ..\mdlsup.c ..\pinsup.c ..\ccperf.c ..\vacbsup.c 
+  cachedat.c
+  cachesub.c
+  copysup.c
+  fssup.c
+  lazyrite.c
+  logsup.c
+  mdlsup.c
+  pinsup.c
+  ccperf.c
+  vacbsup.c
+  Generating Code...
+  linking cache.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\cache.lib obji386\cachedat.obj obji386\cachesub.obj obji386\copysup.obj obji386\fssup.obj obji386\lazyrite.obj obji386\logsup.obj obji386\mdlsup.obj obji386\pinsup.obj obji386\ccperf.obj obji386\vacbsup.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\lpc\BUILD
+  	ml.exe -nologo -Cx -Zi -safeseh -coff -Zm -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\lpc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -c ..\i386\lpcmove.asm 
+   Assembling: ..\i386\lpcmove.asm
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\lpc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\lpcinit.c ..\lpccreat.c ..\lpclistn.c ..\lpcconn.c ..\lpccompl.c ..\lpcsend.c ..\lpcrecv.c ..\lpcreply.c ..\lpcquery.c ..\lpcqueue.c ..\lpcclose.c ..\lpcpriv.c 
+  lpcinit.c
+  lpccreat.c
+  lpclistn.c
+  lpcconn.c
+  lpccompl.c
+  lpcsend.c
+  lpcrecv.c
+  lpcreply.c
+  lpcquery.c
+  lpcqueue.c
+  lpcclose.c
+  lpcpriv.c
+  Generating Code...
+  linking lpc.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\lpc.lib obji386\lpcmove.obj obji386\lpcinit.obj obji386\lpccreat.obj obji386\lpclistn.obj obji386\lpcconn.obj obji386\lpccompl.obj obji386\lpcsend.obj obji386\lpcrecv.obj obji386\lpcreply.obj obji386\lpcquery.obj obji386\lpcqueue.obj obji386\lpcclose.obj obji386\lpcpriv.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\dbgk\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\dbgk -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\dbgkport.c ..\dbgkproc.c ..\dbgkobj.c 
+  dbgkport.c
+  dbgkproc.c
+  dbgkobj.c
+  Generating Code...
+  linking dbgk.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\dbgk.lib obji386\dbgkport.obj obji386\dbgkproc.obj obji386\dbgkobj.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\raw\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\raw -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\Cleanup.c ..\Close.c ..\Create.c ..\FileInfo.c ..\FsCtrl.c ..\StrucSup.c ..\RawDisp.c ..\RawInit.c ..\ReadWrit.c ..\VolInfo.c 
+  Cleanup.c
+  Close.c
+  Create.c
+  FileInfo.c
+  FsCtrl.c
+  StrucSup.c
+  RawDisp.c
+  RawInit.c
+  ReadWrit.c
+  VolInfo.c
+  Generating Code...
+  linking raw.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\raw.lib obji386\Cleanup.obj obji386\Close.obj obji386\Create.obj obji386\FileInfo.obj obji386\FsCtrl.obj obji386\StrucSup.obj obji386\RawDisp.obj obji386\RawInit.obj obji386\ReadWrit.obj obji386\VolInfo.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\fstub\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\fstub -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\drivesup.c 
+  drivesup.c
+  linking fstub.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\fstub.lib obji386\drivesup.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\fsrtl\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\fsrtl -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\DbcsName.c ..\FastIo.c ..\FaultTol.c ..\FileLock.c ..\Filter.c ..\FiltrCtx.c ..\FsFilter.c ..\FsRtlPc.c ..\LargeMcb.c ..\Name.c ..\Notify.c ..\Oplock.c ..\PnP.c ..\Unc.c ..\Tunnel.c ..\StackOvf.c 
+  DbcsName.c
+  FastIo.c
+  FaultTol.c
+  FileLock.c
+  Filter.c
+  FiltrCtx.c
+  FsFilter.c
+  FsRtlPc.c
+  LargeMcb.c
+  Name.c
+  Notify.c
+  Oplock.c
+  PnP.c
+  Unc.c
+  Tunnel.c
+  StackOvf.c
+  Generating Code...
+  linking fsrtl.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\fsrtl.lib obji386\DbcsName.obj obji386\FastIo.obj obji386\FaultTol.obj obji386\FileLock.obj obji386\Filter.obj obji386\FiltrCtx.obj obji386\FsFilter.obj obji386\FsRtlPc.obj obji386\LargeMcb.obj obji386\Name.obj obji386\Notify.obj obji386\Oplock.obj obji386\PnP.obj obji386\Unc.obj obji386\Tunnel.obj obji386\StackOvf.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\wmi\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\wmi -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -DUNICODE -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\i386\mcaevent.c 
+  mcaevent.c
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\wmi -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1 -DUNICODE -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\wmi.c ..\register.c ..\api.c ..\notify.c ..\callouts.c ..\tracelog.c ..\traceapi.c ..\tracesup.c ..\secure.c ..\globalog.c ..\wmidata.c ..\dataprov.c ..\alloc.c ..\chunk.c ..\ds.c ..\consumer.c ..\enabdisa.c ..\smbios.c ..\mca.c ..\provider.c 
+  wmi.c
+  register.c
+  api.c
+  notify.c
+  callouts.c
+  tracelog.c
+  traceapi.c
+  tracesup.c
+  secure.c
+  globalog.c
+  wmidata.c
+  dataprov.c
+  alloc.c
+  chunk.c
+  ds.c
+  consumer.c
+  enabdisa.c
+  smbios.c
+  mca.c
+  provider.c
+  Generating Code...
+  linking wmi.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\wmi.lib obji386\mcaevent.obj obji386\wmi.obj obji386\register.obj obji386\api.obj obji386\notify.obj obji386\callouts.obj obji386\tracelog.obj obji386\traceapi.obj obji386\tracesup.obj obji386\secure.obj obji386\globalog.obj obji386\wmidata.obj obji386\dataprov.obj obji386\alloc.obj obji386\chunk.obj obji386\ds.obj obji386\consumer.obj obji386\enabdisa.obj obji386\smbios.obj obji386\mca.obj obji386\provider.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\perf\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\perf -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\hooks.c ..\logging.c ..\perfdata.c ..\perfsup.c 
+  hooks.c
+  logging.c
+  perfdata.c
+  perfsup.c
+  Generating Code...
+  linking perf.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\perf.lib obji386\hooks.obj obji386\logging.obj obji386\perfdata.obj obji386\perfsup.obj
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\init\BUILD
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\init -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\initos.c 
+  initos.c
+  linking init.lib
+  	lib.exe -nologo  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -out:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\init.lib obji386\initos.obj
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\init -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -FIC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\WARNING.h -c ..\ntkrnlmp.c 
+  ntkrnlmp.c
+  
+  C:\Users\frend\source\repos\WRK-v1.2\base\ntos\init\BUILD>xcopy obji386\ntkrnlmp.obj C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386\ /Y 
+  obji386\ntkrnlmp.obj
+  1 File(s) copied
+  	cd C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD
+  	copy ..\init\ntoskrnl.src+..\init\i386def.src obji386\wrkx86.pp
+  ..\init\ntoskrnl.src
+  ..\init\i386def.src
+          1 file(s) copied.
+  	cl.exe -nologo -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GS -Gm- -Gz -GX- -G6 -Ze -Gi- -QIfdiv- -Z7 -Oxs -Oy- -I..\i386 -I. -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\ddk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\ds\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\sdktools\inc  -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\internal\base\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\sdk\inc\crt -IC:\Users\frend\source\repos\WRK-v1.2\base\ntos\..\..\public\halkit\inc -Foobji386\ -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0 -DCONDITION_HANDLING=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1  -D_WIN32_WINNT=0x0502 -DWINVER=0x0502 -D_WIN32_IE=0x0603 -DWIN32_LEAN_AND_MEAN=1 -DDBG=0 -DDEVL=1  -D__BUILDMACHINE__=WRK1.2(university) -DNDEBUG  -D_NTSYSTEM_ -DNT_SMT -DNTOS_KERNEL_RUNTIME=1  -EP obji386\wrkx86.pp > EXE\wrkx86.def
+  wrkx86.pp
+  	del obji386\wrkx86.pp
+  	lib.exe -nologo -LIBPATH:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386 -LIBPATH:PREBUILT\i386  -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -nodefaultlib -machine:x86 -IGNORE:4001 obji386\*.lib ntoswrk.lib -def:EXE\wrkx86.def -out:EXE\wrkx86.lib
+     Creating library EXE\wrkx86.lib and object EXE\wrkx86.exp
+  	lib.exe -nologo -LIBPATH:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386 -LIBPATH:PREBUILT\i386 EXE\wrkx86.lib ntosarch.lib -out:EXE\wrkx86.lib
+  	link.exe -nologo -IGNORE:4087,4001,4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 -WX -NODEFAULTLIB -machine:x86 -LIBPATH:C:\Users\frend\source\repos\WRK-v1.2\base\ntos\BUILD\obji386 -LIBPATH:PREBUILT\i386 -release -version:5.2 -osversion:5.2 -subsystem:native,5.02 -merge:PAGECONST=PAGE -merge:INITCONST=INIT -merge:INITDATA=INIT -merge:PAGELKCONST=PAGELK  -merge:PAGEVRFY_CONST=PAGEVRFY -MERGE:_PAGE=PAGE -MERGE:_TEXT=.text -merge:.rdata=.text -SECTION:INIT,d -OPT:REF -OPT:ICF -INCREMENTAL:NO  -FULLBUILD -debug -safeseh -functionpadmin:5 -debugtype:cv,fixup       -STACK:0x40000,0x2000 -align:0x1000 -opt:nowin98 -pdbcompress -driver -out:EXE\wrkx86.exe -map:EXE\wrkx86.map -pdb:EXE\wrkx86.pdb -entry:KiSystemStartup@4  -stub:PREBUILT\i386\stub512.com PREBUILT\i386\ntoskrnl.res obji386\ntkrnlmp.obj obji386\*.lib ntoswrk.lib hal.lib EXE\wrkx86.exp bootvid.lib sdbapint.lib kdcom.lib
+  	link.exe -edit -nologo -section:.rsrc,!d EXE\wrkx86.exe
+  
