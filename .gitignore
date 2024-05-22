@@ -1,33 +1,21 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 .vs
+src/base/ntos/BUILD
+src/base/ntos/cache/BUILD
+src/base/ntos/config/BUILD
+src/base/ntos/dbgk/BUILD
+src/base/ntos/ex/BUILD
+src/base/ntos/fsrtl/BUILD
+src/base/ntos/fstub/BUILD
+src/base/ntos/init/BUILD
+src/base/ntos/io/BUILD
+src/base/ntos/io/iomgr/BUILD
+src/base/ntos/ke/BUILD
+src/base/ntos/lpc/BUILD
+src/base/ntos/mm/BUILD
+src/base/ntos/ob/BUILD
+src/base/ntos/perf/BUILD
+src/base/ntos/ps/BUILD
+src/base/ntos/raw/BUILD
+src/base/ntos/rtl/BUILD
+src/base/ntos/wmi/BUILD
+src/base/ntos/se/BUILD

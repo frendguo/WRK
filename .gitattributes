@@ -1,0 +1,2 @@
+*.vmdk filter=lfs diff=lfs merge=lfs -text
+*.vmem filter=lfs diff=lfs merge=lfs -text
